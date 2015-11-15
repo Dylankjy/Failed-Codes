@@ -1,0 +1,41 @@
+Win-SiMPLE
+//^^^App Codec^^^
+//-------------------------------------------------------------------
+//|  Do NOT rely on the notes that I have left                      |
+//| They are either outdated and have been                          |
+//| left there for reference.                                       |
+//| Some codes are useless                                          |
+//--------------------------------------------------------------------
+//|Code Info:                                                       |
+//| All codes here are under the Apache 2.0 Licence                 |
+//| DO NOT DISTRIBUTE CODE!!                                        |
+//--------------------------------------------------------------------
+//|Github/Dylankjy/Codes-For-SiMPLE                                 |
+//|Copyright (c) 2015                                               |
+//|Code Structure version=1.1                                       |
+//--------------------------------------------------------------------
+//
+//
+//
+//
+//---------------------- [Starting heights] --------------------------
+Set rocketx=100 
+Set rockety=100
+Set ufox=900
+Set ufoy=900
+//--------------------------------------------------------------------
+Do
+Int mouse
+Readmouse(xm,ym,zm)
+Read quitkey(SPACE)
+gunsight(xm,ym,zm,WHITE)
+Call cls
+delay(30)
+stars@
+Loop
+
+//---------------------- [Append Libraries] --------------------------
+Append G:gunsight
+Append G:ufo
+Append G:rocket
+Append G:stars
